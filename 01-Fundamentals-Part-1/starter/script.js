@@ -184,3 +184,28 @@ const age = '18'
 if (age === 18) console.log('You just became an adult :D (strict)') // => false
 if(age == 18) console.log('You just became an adult :D (loose)') // => true
 */
+
+/* Logical Operators
+ */
+const hasDriversLicense = true;
+const hasGoodVision = false;
+
+console.log(hasDriversLicense && hasGoodVision); // false
+console.log(hasDriversLicense || hasGoodVision); // true
+console.log(!hasDriversLicense); // false
+
+const shouldDrive = hasDriversLicense && hasGoodVision;
+
+if (shouldDrive) {
+  console.log("Sarah is able to drive~!");
+} else {
+  console.log("Someone else should drive...");
+}
+
+const isTired = trueconsoel.log(hasDriversLicense && hasGoodVision && isTired);
+
+if (shouldDrive && !isTired) {
+  console.log("Sarah is able to drive~!");
+} else {
+  console.log("Someone else should drive...");
+}
