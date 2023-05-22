@@ -142,10 +142,17 @@ console.log(century)
  */
 
 /* Type Conversion and Coercion
- */
 const inputYear = "1991";
-console.log(Number(inputYear), inputYear);
-console.log(Number(inputYear) + 18);
+console.log(Number(inputYear), inputYear); // => number, string
+console.log(Number(inputYear) + 18); // => number
 
-console.log(Number("Jonas"));
+console.log(Number("Jonas")); // => NaN
 console.log(typeof NaN); // => number
+
+console.log(String(23), 23) // String, number
+
+// type coercion
+console.log('I am ' + 23 + ' years old')
+console.log('23' - '10' - 3) // => 10
+console.log('23' / '2')
+ */
