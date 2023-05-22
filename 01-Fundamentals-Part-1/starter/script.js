@@ -186,7 +186,6 @@ if(age == 18) console.log('You just became an adult :D (loose)') // => true
 */
 
 /* Logical Operators
- */
 const hasDriversLicense = true;
 const hasGoodVision = false;
 
@@ -209,3 +208,36 @@ if (shouldDrive && !isTired) {
 } else {
   console.log("Someone else should drive...");
 }
+ */
+
+/* The switch Statement
+const day = 'monday'
+
+switch(day) {
+  case 'monday':
+    console.log('Plan course structure')
+    console.log('Go to coding meetup')
+    break
+  case 'tuesday':
+    console.log.apply('Prepare theory videos')
+    break
+  case 'wednesday':
+  case 'thursday':
+    console.log('Write code examples')
+    break
+  case 'friday':
+    console.log('Record videos')
+    break
+  case 'saturday':
+  case 'sunday':
+    console.log('Enjoy the weekend :D')
+    break
+  default:
+    console.log('Not a valid day!')
+}
+
+if (day === 'monday') {
+    console.log('Plan course structure')
+    console.log('Go to coding meetup')
+}
+*/
